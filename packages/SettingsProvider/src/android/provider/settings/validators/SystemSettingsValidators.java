@@ -213,6 +213,6 @@ public class SystemSettingsValidators {
         VALIDATORS.put(System.VOLUME_PANEL_ON_LEFT, BOOLEAN_VALIDATOR);
         VALIDATORS.put(System.BATTERY_LEVEL_COLORS, BOOLEAN_VALIDATOR);
         VALIDATORS.put(System.QS_SHOW_BATTERY_ESTIMATE, BOOLEAN_VALIDATOR);
-        VALIDATORS.put(System.FLASHLIGHT_ON_CALL, new InclusiveIntegerRangeValidator(0, 3));
+        VALIDATORS.put(System.FLASHLIGHT_ON_CALL, new InclusiveIntegerRangeValidator(0, 4));
     }
 }
