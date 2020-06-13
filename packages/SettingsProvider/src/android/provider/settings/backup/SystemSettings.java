@@ -95,5 +95,7 @@ public class SystemSettings {
         Settings.System.BATTERY_LEVEL_COLORS,
         Settings.System.QS_SHOW_BATTERY_ESTIMATE,
         Settings.System.FLASHLIGHT_ON_CALL,
+        Settings.System.FLASHLIGHT_ON_CALL_IGNORE_DND,
+        Settings.System.FLASHLIGHT_ON_CALL_RATE,
     };
 }
